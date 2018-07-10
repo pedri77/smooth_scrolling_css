@@ -10,36 +10,72 @@
 <body>
     <ul>
         <li>
-            <a href="#red">Red</a>
+            <a href="#red">Home</a>
         </li>
         <li>
-            <a href="#green">Green</a>
+            <a href="#green">Estudios</a>
         </li>
         <li>
-            <a href="#blue">Blue</a>
+            <a href="#blue">Experiencia</a>
         </li>
         <li>
-            <a href="#yellow">Yellow</a>
+            <a href="#yellow">Sobre mi</a>
         </li>
         <li>
-            <a href="#magenta">Magenta</a>
+            <a href="#magenta">Contacto</a>
         </li>
     </ul>
     <div id="container">
         <div id="red">
-            <h1>Red</h1>
+            <h1>Home</h1>
+            <img class="first-img" src="iswanto-arif-435716-unsplash.png" alt="">
         </div>
         <div id="green">
-            <h1>Green</h1>
+            <h1>Estudios</h1>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos optio minus nesciunt minima voluptatem atque error omnis neque ad maxime, at reiciendis vitae ducimus?
+                Reprehenderit minima facilis consequatur omnis eum.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ut nisi! Dolor quod dignissimos quaerat cumque ducimus, 
+               ratione temporibus facere vitae eos nulla esse iure eligendi commodi laudantium, molestias a.</p>
         </div>
         <div id="blue">
-            <h1>Blue</h1>
+            <h1>Experiencia</h1>
+            <p class="p1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos optio minus nesciunt minima voluptatem atque error omnis neque ad maxime, at reiciendis vitae ducimus?
+                    Reprehenderit minima facilis consequatur omnis eum.
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ut nisi! Dolor quod dignissimos quaerat cumque ducimus, 
+                   ratione temporibus facere vitae eos nulla esse iure eligendi commodi laudantium, molestias a.
+            </p>      
         </div>
         <div id="yellow">
-            <h1>Yellow</h1>
+            <h1>Sobre mi</h1>
+            <iframe width="800" height="450" src="https://www.powtoon.com/embed/dyzrADIypSi/" frameborder="0"></iframe>
         </div>
         <div id="magenta">
-            <h1>Magenta</h1>
+            <h1>Contacto</h1>
+            <form action="">
+                <input type="text" id="name" class="name-form" name="nombre">
+                <input class="name-form" id="email" type="email" name="email"  placeholder="email@email.com">
+                <textarea class="text-form" name="message" rows="10" cols="30" maxlength="150" placeholder="Mensaje"></textarea>
+                <fieldset>
+                    <p class="p1">
+                        ¿Cómo nos has conocido?
+                    </p>
+                    <label for=""><input type="checkbox" name="checkbox" id="checkbox1">Internet</label>
+                    <label for=""><input type="checkbox" name="checkbox" id="checkbox1">Buscadores</label>
+                    <label for=""><input type="checkbox" name="checkbox" id="checkbox1">GitHub</label>
+                </fieldset>
+                    <fieldset>
+                        <legend class="toggletext toggled"><a href="#validate_by_uri">Otros</a></legend>
+                        <select id="uri-charset" name="charset">
+                                <option value="(detect automatically)" selected="selected">(elige una opción)</option>
+                                <option value="Keepcoding">Keepcoding</option>
+                                <option value="Keepcoding">Ironhack</option>
+        
+        
+                    </fieldset>
+                         
+                    <input class="boton" type="submit" value="Enviar">
+            </form>
+
         </div>
     </div>
     
